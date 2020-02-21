@@ -1,6 +1,6 @@
 package ds;
 
-public class BasicStack<X> {
+public class BasicStack<X> implements Stack<X> {
     private X [] data;
     private int stackPointer;
 

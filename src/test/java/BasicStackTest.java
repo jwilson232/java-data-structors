@@ -1,7 +1,8 @@
 import ds.BasicStack;
+import ds.Stack;
 
 public class BasicStackTest {
-    BasicStack<String> stack = new BasicStack<String>();
+    Stack<String> stack = new BasicStack<String>();
 
     public static void main(String[] args) {
         BasicStackTest app = new BasicStackTest();
